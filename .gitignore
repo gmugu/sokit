@@ -1,3 +1,9 @@
 /bin
 /out
 /tmp
+*.swp
+*.ini
+sokit.txt
+*.pro.user
+build-*-Debug
+build-*-Release
