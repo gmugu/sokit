@@ -328,90 +328,94 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ServerForm</name>
     <message>
-        <location filename="serverform.ui" line="55"/>
+        <location filename="serverform.ui" line="64"/>
         <source>Network Setup</source>
         <translation type="unfinished">网络设置</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="96"/>
-        <location filename="serverform.ui" line="258"/>
+        <location filename="serverform.ui" line="223"/>
+        <location filename="serverform.ui" line="348"/>
         <source>Port:</source>
         <translation type="unfinished">端口:</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="121"/>
         <source>TCP Addr:</source>
-        <translation type="unfinished">TCP 地址:</translation>
+        <translation type="obsolete">TCP 地址:</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="208"/>
         <source>UDP Addr:</source>
-        <translation type="unfinished">UDP 地址:</translation>
+        <translation type="obsolete">UDP 地址:</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="339"/>
+        <location filename="serverform.ui" line="173"/>
+        <location filename="serverform.ui" line="276"/>
+        <source>IPv6 Addr:</source>
+        <translation type="unfinished">IPv6地址:</translation>
+    </message>
+    <message>
+        <location filename="serverform.ui" line="332"/>
         <source>TCP Listen</source>
         <translation type="unfinished">TCP 侦听</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="317"/>
+        <location filename="serverform.ui" line="120"/>
         <source>UDP Listen</source>
         <translation type="unfinished">UDP 侦听</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="372"/>
+        <location filename="serverform.ui" line="381"/>
         <source>Connections</source>
         <translation type="unfinished">当前连接</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="462"/>
+        <location filename="serverform.ui" line="465"/>
         <source>All</source>
         <translation type="unfinished">全选</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="487"/>
+        <location filename="serverform.ui" line="490"/>
         <source>Disconn</source>
         <translation type="unfinished">断开</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="509"/>
+        <location filename="serverform.ui" line="512"/>
         <source>Buf 1:</source>
         <translation type="unfinished">数据1:</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="528"/>
-        <location filename="serverform.ui" line="573"/>
-        <location filename="serverform.ui" line="615"/>
+        <location filename="serverform.ui" line="531"/>
+        <location filename="serverform.ui" line="576"/>
+        <location filename="serverform.ui" line="618"/>
         <source>Send</source>
         <translation type="unfinished">发送</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="538"/>
+        <location filename="serverform.ui" line="541"/>
         <source>Buf 2:</source>
         <translation type="unfinished">数据2:</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="580"/>
+        <location filename="serverform.ui" line="583"/>
         <source>Buf 3:</source>
         <translation type="unfinished">数据3:</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="663"/>
+        <location filename="serverform.ui" line="666"/>
         <source>Output:    </source>
         <translation type="unfinished">收发记录:    </translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="670"/>
+        <location filename="serverform.ui" line="673"/>
         <source>Recv</source>
         <translation type="unfinished">接收</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="693"/>
+        <location filename="serverform.ui" line="696"/>
         <source>, Send</source>
         <translation type="unfinished">, 发送</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="723"/>
+        <location filename="serverform.ui" line="726"/>
         <source>Write log</source>
         <translation type="unfinished">写入日志</translation>
     </message>
@@ -421,7 +425,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished">服务器</translation>
     </message>
     <message>
-        <location filename="serverform.ui" line="742"/>
+        <location filename="serverform.ui" line="745"/>
         <source>Clear</source>
         <translation type="unfinished">清除</translation>
     </message>
