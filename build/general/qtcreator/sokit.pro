@@ -13,15 +13,6 @@ DEPENDPATH += .
 UI_DIR += ./../../../tmp
 RCC_DIR += ./../../../tmp
 
-win32 {
-    DEFINES += QT_LARGEFILE_SUPPORT
-    CONFIG += windows qt_static
-
-    QMAKE_CFLAGS_MT =-MT
-    QMAKE_CFLAGS_MT_DBG =-MTd
-    QMAKE_CFLAGS_MT_DLL =-MD
-    QMAKE_CFLAGS_MT_DLLDBG =-MDd
-}
 
 CONFIG(debug, debug|release) {
     DESTDIR = ../../../bin/debug
@@ -104,10 +95,6 @@ QMAKE_POST_LINK = lrelease ../../../src/sokit/sokit.ts -qm $$DESTDIR/sokit.lan
 
 win32 {
     RC_FILE = ../../../src/sokit/sokit.rc
-    LIBS += -lWs2_32 -lWinmm -lImm32
-    QMAKE_LFLAGS_DEBUG += /PDB:"$$DESTDIR/sokit.pdb"
-    QMAKE_CFLAGS_DEBUG += /Fd"$$OBJECTS_DIR/sokit.pdb"
-    QMAKE_CXXFLAGS_DEBUG += /Fd"$$OBJECTS_DIR/sokit.pdb"
 
    CONFIG(qt_static) {
         exists( $(QTDIR)/lib_s ) {
