@@ -4,7 +4,7 @@
 ## 编译步骤
 1. Ubuntu命令行执行`sudo apt install qtcreator qt5-default qtbase5-dev qttools5-dev`安装开发环境；
 2. 安装成功后打开Ubuntu左下角开始菜单，找到QtCreator并运行；
-3. 打开项目子目录内的工程文件build/linux86/qtcreator/sokit.pro；
+3. 打开项目子目录内的工程文件build/general/qtcreator/sokit.pro；
 4. 按照QtCreator主窗口的提示，对工程进行初始配置，勾选Select all kits然后点击Configure Project；
 5. 点击左下方的三角形开始编译，编译耗时较长，耐心等待几分钟，编译成功后开始运行本程序。
 
