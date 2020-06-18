@@ -11,6 +11,7 @@
 #define SET_SEC_DIR  "dir"
 #define SET_KEY_LOG  "/log"
 
+class QString;
 class QComboBox;
 class QSettings;
 class Setting
