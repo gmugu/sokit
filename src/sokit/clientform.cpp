@@ -44,6 +44,10 @@ void ClientForm::initConfig()
 	QString ssc(SET_SEC_CLT);
 	Setting::load(ssc+SET_KEY_CMBIP, SET_PFX_CMBITM, *m_ui.cmbAddr);
 	Setting::load(ssc+SET_KEY_CMBPT, SET_PFX_CMBITM, *m_ui.cmbPort);
+	if (m_ui.cmbPort->currentText().length() <= 0) {
+		const short FailSafeDefaultPort = 8080;
+		m_ui.cmbPort->setEditText(QString::number(FailSafeDefaultPort));
+	}
 
 	QString skl(SET_SEC_DIR); skl += SET_KEY_LOG;
 	skl = Setting::get(skl, SET_KEY_CLT, SET_VAL_LGCLT);
