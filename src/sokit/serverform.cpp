@@ -43,7 +43,7 @@ void ServerForm::initConfig()
 	Setting::load(sss+SET_KEY_CMBUA, SET_PFX_CMBITM, *m_ui.cmbUdpAddr, false);
 	Setting::load(sss+SET_KEY_CMBTP, SET_PFX_CMBITM, *m_ui.cmbTcpPort);
 	Setting::load(sss+SET_KEY_CMBUP, SET_PFX_CMBITM, *m_ui.cmbUdpPort);
-	const short FailSafeDefaultPort = 8080;
+	const quint16 FailSafeDefaultPort = 8080;
 	if (m_ui.cmbTcpPort->currentText().length() <= 0) {
 		m_ui.cmbTcpPort->setEditText(QString::number(FailSafeDefaultPort));
 	}

@@ -44,8 +44,8 @@ void TransferForm::initConfig()
 	Setting::load(sst+SET_KEY_CMBDA, SET_PFX_CMBITM, *m_ui.cmbDstAddr);
 	Setting::load(sst+SET_KEY_CMBSP, SET_PFX_CMBITM, *m_ui.cmbSrcPort);
 	Setting::load(sst+SET_KEY_CMBDP, SET_PFX_CMBITM, *m_ui.cmbDstPort);
-	const short FailSafeSrcPort = 8081;
-	const short FailSafeDstPort = 8082;
+	const quint16 FailSafeSrcPort = 8081;
+	const quint16 FailSafeDstPort = 8082;
 	if (m_ui.cmbSrcPort->currentText().length() <= 0) {
 		m_ui.cmbSrcPort->setEditText(QString::number(FailSafeSrcPort));
 	}

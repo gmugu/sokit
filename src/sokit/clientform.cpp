@@ -45,7 +45,7 @@ void ClientForm::initConfig()
 	Setting::load(ssc+SET_KEY_CMBIP, SET_PFX_CMBITM, *m_ui.cmbAddr);
 	Setting::load(ssc+SET_KEY_CMBPT, SET_PFX_CMBITM, *m_ui.cmbPort);
 	if (m_ui.cmbPort->currentText().length() <= 0) {
-		const short FailSafeDefaultPort = 8080;
+		const quint16 FailSafeDefaultPort = 8080;
 		m_ui.cmbPort->setEditText(QString::number(FailSafeDefaultPort));
 	}
 
