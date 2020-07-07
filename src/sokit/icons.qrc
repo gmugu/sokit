@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>sokit.png</file>
+        <file>sokit.ts</file>
     </qresource>
 </RCC>

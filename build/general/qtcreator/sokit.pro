@@ -108,7 +108,6 @@ win32 {
 }
 
 OTHER_FILES += \
-    ../../../src/sokit/sokit.ts \
     ../../../LICENSE \
     ../../../README.md
 
