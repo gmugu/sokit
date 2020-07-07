@@ -90,8 +90,8 @@ FORMS += ../../../src/sokit/clientform.ui \
 TRANSLATIONS += ../../../src/sokit/sokit.ts
 RESOURCES += ../../../src/sokit/icons.qrc
 
-QMAKE_PRE_LINK = lupdate $$PWD/sokit.pro
-QMAKE_POST_LINK = lrelease ../../../src/sokit/sokit.ts -qm $$DESTDIR/sokit.lan
+QMAKE_PRE_LINK = $$[QT_INSTALL_BINS]/lupdate $$PWD/sokit.pro
+QMAKE_POST_LINK = $$[QT_INSTALL_BINS]/lrelease ../../../src/sokit/sokit.ts -qm $$DESTDIR/sokit.lan
 
 win32 {
     RC_FILE = ../../../src/sokit/sokit.rc
