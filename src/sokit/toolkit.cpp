@@ -349,7 +349,7 @@ bool TK::ascii2bin(const QString& src, QByteArray& dst, QString& err)
 				status = IN;
 			}
 			else
-			if (val == ' ')
+            if (val == ' ' || val == ',' || val == 9 /*水平制表*/ || val == 10 /*换行*/ || val == 13 /*回车*/)
 			{
 				status = IN;
 				continue;
